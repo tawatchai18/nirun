@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="true" generated="20201216 14:26:06.843" generator="Robot 3.2.2 (Python 2.7.16 on darwin)">
+<suite source="/Users/tawatchai/Desktop/nirun/Example/tasks.robot" id="s1" name="Tasks">
+<test id="s1-t1" name="Login - Success">
+<kw name="Open The Intranet Website">
+<kw name="Open Available Browser">
+<arguments>
+<arg>https://id.nirun.life/auth/realms/beta/protocol/openid-connect/auth?client_id=app&amp;redirect_uri=https%3A%2F%2Fbeta-app.nirun.life%2Forgs&amp;state=3650321d-30d9-4b7d-8d33-cf4cafd2611a&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=f2250d00-4f3e-4640-b0af-f027bbc30006</arg>
+</arguments>
+<msg timestamp="20201216 14:26:06.873" level="FAIL">No keyword with name 'Open Available Browser' found.</msg>
+<status status="FAIL" endtime="20201216 14:26:06.874" starttime="20201216 14:26:06.873"></status>
+</kw>
+<status status="FAIL" endtime="20201216 14:26:06.874" starttime="20201216 14:26:06.871"></status>
+</kw>
+<status status="FAIL" endtime="20201216 14:26:06.874" critical="yes" starttime="20201216 14:26:06.871">No keyword with name 'Open Available Browser' found.</status>
+</test>
+<test id="s1-t2" name="Check in - Success">
+<kw name="Maximize Browser Window">
+<msg timestamp="20201216 14:26:06.876" level="FAIL">No keyword with name 'Maximize Browser Window' found.</msg>
+<status status="FAIL" endtime="20201216 14:26:06.876" starttime="20201216 14:26:06.876"></status>
+</kw>
+<status status="FAIL" endtime="20201216 14:26:06.876" critical="yes" starttime="20201216 14:26:06.874">No keyword with name 'Maximize Browser Window' found.</status>
+</test>
+<test id="s1-t3" name="Click ผู้รับบริการ - success">
+<kw name="Set Selenium Speed">
+<arguments>
+<arg>0.3</arg>
+</arguments>
+<msg timestamp="20201216 14:26:06.879" level="FAIL">No keyword with name 'Set Selenium Speed' found.</msg>
+<status status="FAIL" endtime="20201216 14:26:06.879" starttime="20201216 14:26:06.879"></status>
+</kw>
+<status status="FAIL" endtime="20201216 14:26:06.879" critical="yes" starttime="20201216 14:26:06.877">No keyword with name 'Set Selenium Speed' found.</status>
+</test>
+<doc>Robot to enter weekly sales data into the RobotSpareBin Industries Intranet.</doc>
+<status status="FAIL" endtime="20201216 14:26:06.880" starttime="20201216 14:26:06.845"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="3" pass="0">Critical Tasks</stat>
+<stat fail="3" pass="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="3" id="s1" name="Tasks" pass="0">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20201216 14:26:06.870" level="ERROR">Error in file '/Users/tawatchai/Desktop/nirun/Example/tasks.robot' on line 4: Importing test library 'RPA.Browser' failed: ImportError: No module named RPA
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip
+  /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7
+  /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin
+  /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac
+  /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages
+  /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk
+  /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old
+  /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload
+  /Users/tawatchai/Library/Python/2.7/lib/python/site-packages
+  /Library/Python/2.7/site-packages</msg>
+</errors>
+</robot>
